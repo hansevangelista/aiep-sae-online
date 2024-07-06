@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AEIP - SAE Online</title>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    body {
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      color: #072347;
+      font-weight: 500;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    img {
+      vertical-align: top;
+    }
+
+    .aeip-sae-header {
+      box-shadow: 0px 3px 16px 0px #100F0F33;
+      display: flex;
+    }
+    .aeip-sae-logo {
+      width: 90px;
+      padding: 12px 0;
+      margin-right: 24px;
+    }
+    .aeip-sae-tab {
+      color: #024588;
+      font-size: 16px;
+      padding: 12px 20px;
+      border-bottom: 3px solid #024588;
+      background: #EBF2F9;
+      display: flex;
+      align-items: center;
+    }
+
+    .aeip-sae-main {
+      padding: 20px;
+    }
+
+
+    @media only screen and (min-width: 768px) {
+      body {
+        font-size: 18px;
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .aeip-sae-header{
+        padding: 0 12px;
+      }
+      .aeip-sae-main {
+        padding: 40px;
+      }
+    }
+
+    .aeip-sae-card {
+      box-shadow: 0px 5px 3px 0px #100F0F33;
+      padding: 20px;
+      margin: 40px 0;
+      border-radius: 10px;
+    }
+    .aeip-sae-card >img {
+      width: 100%;
+    }
+
+    .aeip-sae-card-title {
+      color: #024588;
+      font-size: 24px;
+    }
+    .aeip-sae-card-button {
+      text-decoration: none;
+      border: 1px solid #024588;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 20px;
+      color: #024588;
+      font-size: 16px;
+      margin-left: 32px;
+    }
+
+    @media only screen and (min-width: 768px) {
+      .aeip-sae-cards {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .aeip-sae-card-wrapper {
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      .aeip-sae-card-wrapper {
+        width: 25%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header class="aeip-sae-header">
+    <img src="./logo.png" class="aeip-sae-logo">
+    <a class="aeip-sae-tab">
+      SAE Online
+    </a>
+  </header>
+
+  <main class="aeip-sae-main">
+    <p>¡Hola!</p>
+
+    <p>
+      Aquí ponemos a tu disposición nuestros servicios de ayuda a estudiantes, docentes y colaboradores de Aiep Virtual, Carreras de Telepresencia y temas relacionados con el Aula Virtual.
+    </p>
+
+    <p>
+      En el caso de presentar inconvenientes con otras plataformas, como <b>Intranet, correo, carga académica o titulación</b> debes realizarlo vía la opción <b>Sugerencias y Reclamos</b> de tu intranet beta o en SAE Digital (<a href="https://saedigital.aiep.cl/">saedigital.aiep.cl</a>)
+    </p>
+
+    <p>
+      Si tienes algún inconveniente para rendir alguna evaluación de un módulo Semipresencial u Online, contáctate con tu docente. Él es el único autorizado para dar un nuevo intento o extender plazo para alguna actividad o evaluación.
+    </p>
+
+    <section class="aeip-sae-cards">
+      <div class="aeip-sae-card-wrapper">
+        <article class="aeip-sae-card">
+          <img src="./card1.png">
+          <h1 class="aeip-sae-card-title">Estudiantes</h1>
+          <a class="aeip-sae-card-button" href="">
+            Ir a Mis Solicitudes &nbsp;&nbsp;<img src="./arrow.svg">
+          </a>
+        </article>
+      </div>
+
+      <div class="aeip-sae-card-wrapper">
+        <article class="aeip-sae-card">
+          <img src="./card2.png">
+          <h1 class="aeip-sae-card-title">Docentes</h1>
+          <a class="aeip-sae-card-button" href="">
+            Ingresar un ticket &nbsp;&nbsp;<img src="./arrow.svg">
+          </a>
+        </article>
+      </div>
+      <div class="aeip-sae-card-wrapper">
+        <article class="aeip-sae-card">
+          <img src="./card3.png">
+          <h1 class="aeip-sae-card-title">Colaboradores AIEP</h1>
+          <a class="aeip-sae-card-button" href="">
+            Ingresar un ticket &nbsp;&nbsp;<img src="./arrow.svg">
+          </a>
+        </article>
+      </div>
+
+      <div class="aeip-sae-card-wrapper">
+        <article class="aeip-sae-card">
+          <img src="./card4.png">
+          <h1 class="aeip-sae-card-title">Ver Estado de Ticket</h1>
+          <a class="aeip-sae-card-button" href="">
+            Ir &nbsp;&nbsp;<img src="./arrow.svg">
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
