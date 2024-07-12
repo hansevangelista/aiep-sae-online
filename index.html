@@ -48,7 +48,7 @@
 
     @media only screen and (min-width: 768px) {
       body {
-        font-size: 18px;
+        font-size: 20px;
       }
     }
 
@@ -74,6 +74,13 @@
     .aeip-sae-card-title {
       color: #024588;
       font-size: 24px;
+    }
+    .aeip-sae-card-subtitle {
+      color: #024588;
+      font-size: 15px;
+      display: table;
+      margin-top: -8px;
+      margin-bottom: 12px;
     }
     .aeip-sae-card-button {
       text-decoration: none;
@@ -107,6 +114,9 @@
     @media only screen and (min-width: 1200px) {
       .aeip-sae-card-wrapper {
         width: 25%;
+      }
+      .aeip-sae-card {
+        min-height: 380px;
       }
     }
 
@@ -169,6 +179,7 @@
         <article class="aeip-sae-card">
           <img src="./card4.svg">
           <h1 class="aeip-sae-card-title">Ver Estado de Ticket</h1>
+          <small class="aeip-sae-card-subtitle">Sólo para docentes y colaboradores AIEP.</small>
           <a class="aeip-sae-card-button" href="">
             Ir &nbsp;&nbsp;<img src="./arrow.svg">
           </a>
